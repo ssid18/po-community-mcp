@@ -1,0 +1,29 @@
+{
+  "Patient": {
+    "resourceType": "Patient",
+    "id": "patient_123",
+    "name": [
+      {
+        "given": ["James"],
+        "family": "Carter"
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1980-04-12"
+  },
+  "AllergyIntolerance": [
+    { "id": "123", "substance": "Penicillin" }
+  ],
+  "MedicationRequest": [
+    { "id": "456", "medication": "Drug Y", "status": "active" }
+  ],
+  "Observation": [
+    { "id": "789", "code": "BP", "value": "160/100" }
+  ],
+  "Procedure": [
+    { "id": "321", "code": "MRI", "performed_days_ago": 2 }
+  ],
+  "Condition": [
+    { "id": "654", "name": "hypertension" }
+  ]
+}
